@@ -1,7 +1,7 @@
 # PyXRD
 Analysis of X-ray Dowder Diffraction Patterns
 
-## Created and maintained by Yucheng Lan and Kit Sze
+Created and maintained by Yucheng Lan and Kit Sze
 
 ## versions
 1. Version 0.01.21a: Standardize plot of original data, withouth background removal.  Peak intensities were normalized (max: 100).  
