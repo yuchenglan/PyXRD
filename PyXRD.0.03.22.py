@@ -40,6 +40,10 @@ b = [1.0/n] * n
 a = 1
 int_lfilter = signal.lfilter(b, a, y_bg)
 plt.plot(x, int_lfilter + 1000, linewidth = 0.5, linestyle = '-', color = 'g', label = 'BG + smoothness (lfilter)') # peak shift right  !_!
+# 4. filtfilt, peak shape changed at peak root.  Not good filter (lowpass and highpass) for XRD 
+#b2, a2 = signal.butter(3, 0.05, 'lowpass') # or lowpass or highpass
+#int_filtfilt = signal.filtfilt(b2, a2, y_bg)
+#plt.plot(x, int_filtfilt + 3000, linewidth = 0.5, linestyle = '-', color = 'pink', label = 'BG + smoothness (filtfilt)') # peak shift right  !_!
 
 #legend etc of figure
 #orginal data
