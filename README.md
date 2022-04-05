@@ -3,6 +3,8 @@ Analysis of X-ray Dowder Diffraction Patterns
 
 Created and maintained by Yucheng Lan and Kit Sze
 
+Version 0.22.03ML was created and maintained by Yucheng and Grace 
+
 ## versions
 1. Version 0.21.01a: Standardize plot of original data, withouth background removal.  Peak intensities were normalized (max: 100).  
 2. Version 0.21.01b: background removal with linear (detrend) fitting (disabled).
