@@ -365,7 +365,7 @@ plt.show()
 
 
 #saving new data in csv
-np.savetxt('PyXRD_ML_New.csv', data, delimiter=',')
+np.savetxt('PyXRD_ML_New.csv', ML_data, delimiter=',')
 # Saving figure
 plt.savefig('PyXRD.png', dpi=500)
 plt.savefig('PyXRD.pdf', dpi=500)
